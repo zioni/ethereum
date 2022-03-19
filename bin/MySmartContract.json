@@ -1,0 +1,301 @@
+{
+    "contractName": "MySmartContract",
+    "abi": [
+        {
+            "inputs": [
+                {
+                    "internalType": "string",
+                    "name": "str",
+                    "type": "string"
+                }
+            ],
+            "name": "Greet",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "Hello",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"string\",\"name\":\"str\",\"type\":\"string\"}],\"name\":\"Greet\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"Hello\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/zion/smart-contract/SmartContract.sol\":\"MySmartContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/zion/smart-contract/SmartContract.sol\":{\"keccak256\":\"0x5f9873fca8346c5eca2eae3c81d3f2478efc8c8c55a6e5acd1f16d186d558f48\",\"urls\":[\"bzz-raw://25863667400e226d29f1a186cf58a5524ceca6ad0e85c86e5af1a449375aef29\",\"dweb:/ipfs/QmY9YcdRVbHLvVVHLH56C1k3wqZmfwcEXLZcR44mvWYUgE\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b506101d7806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c8063bcdfe0d51461003b578063efdeaaf514610074575b600080fd5b60408051808201909152600b81526a12195b1b1bc815dbdc9b1960aa1b60208201525b60405161006b9190610085565b60405180910390f35b61005e6100823660046100f0565b90565b600060208083528351808285015260005b818110156100b257858101830151858201604001528201610096565b818111156100c4576000604083870101525b50601f01601f1916929092016040019392505050565b634e487b7160e01b600052604160045260246000fd5b60006020828403121561010257600080fd5b813567ffffffffffffffff8082111561011a57600080fd5b818401915084601f83011261012e57600080fd5b813581811115610140576101406100da565b604051601f8201601f19908116603f01168101908382118183101715610168576101686100da565b8160405282815287602084870101111561018157600080fd5b82602086016020830137600092810160200192909252509594505050505056fea2646970667358221220bed02daa2c9e81bb34e1b5715bfcee92ac9be9d6cbb293282c7b87689b7a92c564736f6c634300080d0033",
+    "deployedBytecode": "608060405234801561001057600080fd5b50600436106100365760003560e01c8063bcdfe0d51461003b578063efdeaaf514610074575b600080fd5b60408051808201909152600b81526a12195b1b1bc815dbdc9b1960aa1b60208201525b60405161006b9190610085565b60405180910390f35b61005e6100823660046100f0565b90565b600060208083528351808285015260005b818110156100b257858101830151858201604001528201610096565b818111156100c4576000604083870101525b50601f01601f1916929092016040019392505050565b634e487b7160e01b600052604160045260246000fd5b60006020828403121561010257600080fd5b813567ffffffffffffffff8082111561011a57600080fd5b818401915084601f83011261012e57600080fd5b813581811115610140576101406100da565b604051601f8201601f19908116603f01168101908382118183101715610168576101686100da565b8160405282815287602084870101111561018157600080fd5b82602086016020830137600092810160200192909252509594505050505056fea2646970667358221220bed02daa2c9e81bb34e1b5715bfcee92ac9be9d6cbb293282c7b87689b7a92c564736f6c634300080d0033",
+    "sourceMap": "36:232:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "36:232:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;68:92;132:20;;;;;;;;;;;;-1:-1:-1;;;132:20:0;;;;68:92;;;;;;;:::i;:::-;;;;;;;;166:99;;;;;;:::i;:::-;254:3;166:99;14:597:1;126:4;155:2;184;173:9;166:21;216:6;210:13;259:6;254:2;243:9;239:18;232:34;284:1;294:140;308:6;305:1;302:13;294:140;;;403:14;;;399:23;;393:30;369:17;;;388:2;365:26;358:66;323:10;;294:140;;;452:6;449:1;446:13;443:91;;;522:1;517:2;508:6;497:9;493:22;489:31;482:42;443:91;-1:-1:-1;595:2:1;574:15;-1:-1:-1;;570:29:1;555:45;;;;602:2;551:54;;14:597;-1:-1:-1;;;14:597:1:o;616:127::-;677:10;672:3;668:20;665:1;658:31;708:4;705:1;698:15;732:4;729:1;722:15;748:922;817:6;870:2;858:9;849:7;845:23;841:32;838:52;;;886:1;883;876:12;838:52;926:9;913:23;955:18;996:2;988:6;985:14;982:34;;;1012:1;1009;1002:12;982:34;1050:6;1039:9;1035:22;1025:32;;1095:7;1088:4;1084:2;1080:13;1076:27;1066:55;;1117:1;1114;1107:12;1066:55;1153:2;1140:16;1175:2;1171;1168:10;1165:36;;;1181:18;;:::i;:::-;1256:2;1250:9;1224:2;1310:13;;-1:-1:-1;;1306:22:1;;;1330:2;1302:31;1298:40;1286:53;;;1354:18;;;1374:22;;;1351:46;1348:72;;;1400:18;;:::i;:::-;1440:10;1436:2;1429:22;1475:2;1467:6;1460:18;1515:7;1510:2;1505;1501;1497:11;1493:20;1490:33;1487:53;;;1536:1;1533;1526:12;1487:53;1592:2;1587;1583;1579:11;1574:2;1566:6;1562:15;1549:46;1637:1;1615:15;;;1632:2;1611:24;1604:35;;;;-1:-1:-1;1619:6:1;748:922;-1:-1:-1;;;;;748:922:1:o",
+    "sourcePath": "c:/Users/zion/smart-contract/SmartContract.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.13+commit.abaa5c0e"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/zion/smart-contract/SmartContract.sol",
+        "exportedSymbols": {
+            "MySmartContract": [
+                20
+            ]
+        },
+        "id": 21,
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.7",
+                    ".0",
+                    "<",
+                    "0.8",
+                    ".14"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "0:32:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "MySmartContract",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 20,
+                "linearizedBaseContracts": [
+                    20
+                ],
+                "name": "MySmartContract",
+                "nameLocation": "45:15:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "body": {
+                            "id": 8,
+                            "nodeType": "Block",
+                            "src": "121:39:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "hexValue": "48656c6c6f20576f726c64",
+                                        "id": 6,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": true,
+                                        "kind": "string",
+                                        "lValueRequested": false,
+                                        "nodeType": "Literal",
+                                        "src": "139:13:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_stringliteral_592fa743889fc7f92ac2a37bb1f5ba1daf2a5c84741ca0e0061d243a2e6707ba",
+                                            "typeString": "literal_string \"Hello World\""
+                                        },
+                                        "value": "Hello World"
+                                    },
+                                    "functionReturnParameters": 5,
+                                    "id": 7,
+                                    "nodeType": "Return",
+                                    "src": "132:20:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "bcdfe0d5",
+                        "id": 9,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "Hello",
+                        "nameLocation": "77:5:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 2,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "82:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 5,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 4,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 9,
+                                    "src": "106:13:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 3,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "106:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "105:15:0"
+                        },
+                        "scope": 20,
+                        "src": "68:92:0",
+                        "stateMutability": "view",
+                        "virtual": false,
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 18,
+                            "nodeType": "Block",
+                            "src": "236:29:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 16,
+                                        "name": "str",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 11,
+                                        "src": "254:3:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_memory_ptr",
+                                            "typeString": "string memory"
+                                        }
+                                    },
+                                    "functionReturnParameters": 15,
+                                    "id": 17,
+                                    "nodeType": "Return",
+                                    "src": "247:10:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "efdeaaf5",
+                        "id": 19,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "Greet",
+                        "nameLocation": "175:5:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 12,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 11,
+                                    "mutability": "mutable",
+                                    "name": "str",
+                                    "nameLocation": "195:3:0",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 19,
+                                    "src": "181:17:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 10,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "181:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "180:19:0"
+                        },
+                        "returnParameters": {
+                            "id": 15,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 14,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 19,
+                                    "src": "221:13:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 13,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "221:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "220:15:0"
+                        },
+                        "scope": 20,
+                        "src": "166:99:0",
+                        "stateMutability": "view",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 21,
+                "src": "36:232:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "0:268:0"
+    },
+    "functionHashes": {
+        "Greet(string)": "efdeaaf5",
+        "Hello()": "bcdfe0d5"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "94200",
+            "executionCost": "141",
+            "totalCost": "94341"
+        },
+        "external": {
+            "Greet(string)": "infinite",
+            "Hello()": "infinite"
+        }
+    }
+}
